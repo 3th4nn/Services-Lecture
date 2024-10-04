@@ -3,9 +3,9 @@ Description=A simple file sharing service.
 After=network.target
 
 [Service]
-ExecStart=/
+ExecStart=/home/sysadmin/Sharing/server.sh
 Restart=always
-WorkingDirectory=/
+WorkingDirectory=/home/sysadmin/Sharing/
 User=root
 Group=root
 
