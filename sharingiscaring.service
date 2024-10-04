@@ -1,0 +1,13 @@
+[Unit]
+Description=A simple file sharing service.
+After=network.target
+
+[Service]
+ExecStart=/
+Restart=always
+WorkingDirectory=/
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
